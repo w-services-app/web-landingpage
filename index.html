@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap 101 Template</title>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/vendor/waypoints/waypoints.js"></script>
+        <script src="js/vendor/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <link rel="stylesheet/less" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet/less" type="text/css" href="less/main.less" />
+        <script src="js/vendor/less/less.min.js"></script>
+
+    </head>
+    <body>
+        <!-- 
+        BROWSE HAPPY START 
+
+        Использование устаревшего браузера повышает риск взлома вашего компьютера. 
+        Browse Happy — это способ узнать о свежих версиях современных браузеров. 
+        Здесь также можно ознакомиться с альтернативными браузерами, которые могут 
+        подойти вам даже больше, чем текущий.
+        --> 
+        <!--[if IE 6]>
+        <p class="browsehappy">
+            <span></span>Вы используете <strong>устаревший</strong> браузер.
+            Пожалуйста, <a href="http://browsehappy.com/">обновите ваш браузер.</a>
+        </p>
+        <![endif]-->
+        <!--[if IE 7]>
+        <p class="browsehappy">
+            <span></span>Вы используете <strong>устаревший</strong> браузер.
+            Пожалуйста, <a href="http://browsehappy.com/">обновите ваш браузер.</a>
+        </p>
+        <![endif]-->
+        <!--[if IE 8]>
+        <p class="browsehappy">
+            <span></span>Вы используете <strong>устаревший</strong> браузер.
+            Пожалуйста, <a href="http://browsehappy.com/">обновите ваш браузер.</a>
+        </p>
+        <![endif]-->
+        <!--[if IE 9]>
+        <p class="browsehappy">
+            <span></span>Вы используете <strong>устаревший</strong> браузер.
+            Пожалуйста, <a href="http://browsehappy.com/">обновите ваш браузер.</a>
+        </p>
+        <![endif]-->
+        <!-- BROWSE HAPPY ENDS --> 
+
+        <nav class="navbar-inverse navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul id="nav"  class="nav navbar-nav">
+                        <li class="main"><a href="#main">Главная</a></li>
+                        <li class="works"><a href="#works">Примеры наших работ</a></li>
+                        <li class="reviews"><a href="#reviews">Отзывы</a></li>
+                        <li class="get"><a href="#get">Что вы получите</a></li>
+                        <li class="contact"><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div> <!-- /container -->
+        </nav>
+
+        <div class="container-fluid" id="header">
+            <div class="container">
+                <header class="tracked">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <a href="/">
+                                <img src="images/logo.png" alt="" class="logo img-responsive" />
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-md-offset-2">
+                            <p class="tel">тел.: 27-170-132<br>
+                                <span class="adr">Рига, Лачплеша 37</span>
+                            </p>                  
+                        </div>
+                    </div>
+                </header> <!-- /header /#home -->
+            </div> <!-- /container -->
+        </div> <!-- /container-fluid -->
+        <div class="container" id="main">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div id="present">
+                        <h1 class="main_title tac1 lead">ДЕЛАЕМ СТРАНИЦЫ ЗАХВАТА КЛИЕНТОВ<br>В 10-30 РАЗ ДЕЙСТВЕННЕЙ ОБЫЧНЫХ СТРАНИЦ</h1>
+                        <p class="title tac lead">ВЫ ПОЛУЧИТЕ ДЕНЕЖНУЮ МАШИНУ, ПО ДОБЫЧИ КЛИЕНТОВ И ДЕНЕГ ИЗ ИНТЕРНЕТА</p>  <br><br><br>
+
+                        <div class="gorizont_form">		
+                            <p class="title tac">
+                                <span style="font-weight:bold">
+                                    Получите БЕСПРЛАТНО руководство «Как Владельцам <br />
+                                    и будущим владельцам сайтов застраховаться от ошибок» и 18 готовых идей для захвата клиентов!</span>
+                            </p>
+                            <div class="response" role="alert"></div>
+                            <form action="#" method="post" class="form-inline"> 
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                                        <input class="form-control name" placeholder="Введите Ваше имя" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                                        <input class="form-control email" placeholder="Введите e-mail:" required="" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input class="btn-lg btn-danger header_send" value="Отправить" type="button">
+                                </div> 
+                                <div class="form-group">
+                                    <p class="politic">
+                                        Нажимая на кнопку "Получить консультацию + подарок",
+                                        <br> Ваши контакты останутся в безопасности,<br>и не будут переданы третьим лицам!
+                                    </p>
+                                </div> 
+                            </form> 	
+
+                        </div>		
+                    </div> <!-- /present -->
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+        <div class="container" id="works">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <p class="zag_main lead">ПОСМОТРИТЕ НА РЕЗУЛЬТАТЫ<br>НАШЕЙ РАБОТЫ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Школа музыки Forte</h3>
+                        </div>
+                        <div class="work">
+                            <img src="images/work_01.png" alt="Школа музыки Forte" />
+                            <a href="work/work_01.pdf" target="_blank" class="btn-lg btn-danger see">Посмотреть</a>
+                        </div>
+                        <div class="caption">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                                    <p class="form-control">Google и Yandex</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></div>
+                                    <p class="form-control">Заявок в день - 2</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-euro"></span></div>
+                                    <p class="form-control">Цена заявки - 8.70 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Школа музыки Forte</h3>
+                        </div>
+                        <div class="work">
+                            <img src="images/work_02.png" alt="Школа музыки Forte" />
+                            <a href="work/work_02.pdf" target="_blank" class="btn-lg btn-danger see">Посмотреть</a>
+                        </div>
+                        <div class="caption">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                                    <p class="form-control">VK и Facebook</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></div>
+                                    <p class="form-control">Заявок в день - 5</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-euro"></span></div>
+                                    <p class="form-control">Цена заявки - 12.45 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Элит. недвижимость</h3>
+                        </div>
+                        <div class="work">
+                            <img src="images/work_03.png" alt="Школа музыки Forte" />
+                            <a href="work/work_03.pdf" target="_blank" class="btn-lg btn-danger see">Посмотреть</a>
+                        </div>
+                        <div class="caption">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                                    <p class="form-control">Сбор данных</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></div>
+                                    <p class="form-control">Заявок в день - 1</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-euro"></span></div>
+                                    <p class="form-control">Цена заявки - 10.25 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Корпусная мебель</h3>
+                        </div>
+                        <div class="work">
+                            <img src="images/work_04.png" alt="Школа музыки Forte" />
+                            <a href="work/work_04.pdf" target="_blank" class="btn-lg btn-danger see">Посмотреть</a>
+                        </div>
+                        <div class="caption">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                                    <p class="form-control">Google и Yandex</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></div>
+                                    <p class="form-control">Заявок в день - 3</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-euro"></span></div>
+                                    <p class="form-control">Цена заявки - 3.97 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12" id="want">
+                    <p class="plus tac">и ещё много работ в нашем портфолио</p>
+                    <p><a class="btn-lg btn-danger want" href="#price">Хочу посмотреть другие работы</a> </p>
+                    <p><a class="btn-lg btn-danger want" href="#price">Хочу такие же результаты</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="reviews">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <p class="zag_main lead">ПОЧИТАЙТЕ ОТЗЫВЫ НАШИХ КЛИЕНТОВ</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <img data-holder-rendered="true" src="images/reviews_01.png" style="width: 223px; height: 223px;" 
+                                 class="media-object" data-src="holder.js/223x223" alt="64x64">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Елена Федорова <span class="who">Директор школы музыки "Forte"</span></h4>
+                            <p>«Я обратилась в web-academy.eu, когда моя рекламная кампания исчерпала себя, и я не знала, откуда 
+                                брать новых клиентов. Нужно было сильное увеличение клиентов, чтобы занять новых педагогов и выйти 
+                                на прибыль. Команда web-academy.eu сделала это: с помощью баннерной рекламы Вконтакте я получила до 
+                                47 обращений в день, и каждый записавшийся обошёлся мне около 3,35€! Окупила рекламные деньги уже в 
+                                первые 3 дня, при том, что 90% людей, оставивших заявки, еще даже не успели дойти до нашей школы. 
+                                Было сделано несколько разных вариантов страницы, в итоге, путем аб-теста был выбран лучший».</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <img data-holder-rendered="true" src="images/reviews_02.png" style="width: 223px; height: 223px;" 
+                                 class="media-object" data-src="holder.js/223x223" alt="64x64">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Дарья Шихова<span class="who">Основатель сети БМ-Хостел</span></h4>
+                            <p>«Спасибо компании web-academy.eu за наш сайт БМ Хостел! Впечатления от полученного результата великолепные! 
+                                Безусловно, получили круто сделанный сайт! Продуманная структура, логически составленные блоки, удобные 
+                                кнопки «заказать» и «отправить». Хорошо настроенная реклама в Google и Yandex дала в первый день 
+                                запуска данного сайта в 3 раза больше заявок, чем было раньше!»</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <img data-holder-rendered="true" src="images/reviews_03.png" style="width: 223px; height: 223px;" 
+                                 class="media-object" data-src="holder.js/223x223" alt="64x64">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Евгения Сулима<span class="who">Основатель фото и дизайн студи YokoFoto</span></h4>
+                            <p>«Для моей компании новый сайт был просто необходим, так как бизнес буксовал, нужно было выходить на новый,
+                                более высокий уровень. Обратилась к команде web-academy.eu, потому что лично знала ребят, знала, на что 
+                                они способны. Сайт получился не совсем как задумывала, слишком сочным, но информативным, с большим 
+                                количеством оставленных заявок. Дизайн, вызывающий доверие, структура и профессионально написанные 
+                                тексты позволили привлечь в 4 раза больше клиентов уже в следующие дни запуска сайта и контекстной 
+                                рекламы. Прибыль стала значительно увеличиваться, поэтому деньги, потраченные на создание таких страниц, 
+                                с лихвой окупили себя. Спасибо!»
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container" id="price">
+            <div class="row">
+                <div class="well gorizont_form">
+                    <p class="title tac">
+                        <span style="font-weight:bold">
+                            Получите БЕСПРЛАТНО руководство «Как Владельцам <br />
+                            и будущим владельцам сайтов застраховаться от ошибок» и 18 готовых идей для захвата клиентов!</span>
+                    </p>
+                    <div class="alert alert-success response" role="alert"></div>
+                    <form action="#" method="post" class="form-inline"> 
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                                <input class="form-control name" placeholder="Введите Ваше имя" required="" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                                <input class="form-control email" placeholder="Введите e-mail:" required="" type="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input class="btn-lg btn-danger header_send" value="Отправить" type="button">
+                        </div> 
+                        <div class="form-group">
+                            <p class="politic">Нажимая на кнопку "Получить консультацию + подарок",<br> Ваши контакты останутся в безопасности,<br>и не будут переданы третьим лицам!</p>
+                        </div> 
+                    </form> 	
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="get">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <p class="zag_main lead">		
+                        15 КЛЮЧЕВЫХ ПОКАЗАТЕЛЕЙ НАШЕЙ УСПЕШНОЙ РАБОТЫ <br/>
+                        ИЛИ ЧТО ВЫ ПОЛУЧИТЕ, РАБОТАЯ С НАМИ                     
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/1_1.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/1_2.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/1_3.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_1.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_2.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_3.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_1.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_2.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/2_3.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/3_1.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/3_2.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/3_3.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/4_1.png" height="222" width="222" alt="Глобальный анализ рынка и конкурентов" />
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/4_2.png" height="222" width="222" alt="Определение целевой аудитории, ее сегментация и анализ" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/4_3.png" height="222" width="222" alt="Выявление болей и потребностей целевой аудитории" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/5_1.png" height="222" width="222" alt="Глобальный анализ"/>
+                    <div class="hover"></div>
+                    <p class="tac r1">Глобальный анализ<br>рынка и конкурентов</p>
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/5_2.png" height="222" width="222" alt="Определение целевой аудитории, ее сегментация<br>и анализ" />
+                    <div class="hover"></div>
+                    <p class="tac r2">Определение<br>целевой аудитории,<br>ее сегментация<br>и анализ</p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 reson">
+                    <img class="lazy fl" src="images/5_3.png" height="222" width="222" alt="Выявление болей и потребностей<br>целевой аудитории" />
+                    <div class="hover"></div>
+                    <p class="tac r3">Выявление болей<br>и потребностей<br>целевой аудитории</p>
+                </div>
+
+                <div class="col-md-8 col-sm-12 col-md-offset-2">
+                    <div class="well" id="itog">
+                        <p class="zag_main">ИТОГ НАШЕЙ РАБОТЫ:</p>
+                        <p class="middle tac">ВЫ ПОЛУЧИТЕ В СВОИ РУКИ ДЕНЕЖНУЮ МАШИНУ,</p>
+                        <p class="title tac">ЕЖЕМЕСЯЧНО ПРИНОСЯЩУЮ ОЩУТИМУЮ ПРИБЫЛЬ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="price_last">
+            <div class="container" id="contact">
+                <div class="row">
+                    <div class="well gorizont_form">
+                        <p class="title tac">
+                            <span style="font-weight:bold">
+                                Получите БЕСПРЛАТНО руководство «Как Владельцам <br />
+                                и будущим владельцам сайтов застраховаться от ошибок» и 18 готовых идей для захвата клиентов!</span>
+                        </p>
+                        <div class="alert alert-success response" role="alert"></div>
+                        <form action="#" method="post" class="form-inline"> 
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                                    <input class="form-control name" placeholder="Введите Ваше имя" required="" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                                    <input class="form-control email" placeholder="Введите e-mail:" required="" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input class="btn-lg btn-danger header_send" value="Отправить" type="button">
+                            </div> 
+                            <div class="form-group">
+                                <p class="politic">Нажимая на кнопку "Получить консультацию + подарок",<br> Ваши контакты останутся в безопасности,<br>и не будут переданы третьим лицам!</p>
+                            </div> 
+                        </form> 	
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="footer">
+            <div class="container">
+                <div class="row">
+                    <footer>
+                        <div class="col-sm-12 col-md-6">
+                            <a href="/">
+                                <img src="images/logo.png" alt="" class="logo img-responsive" />
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-md-offset-2">
+                            <p class="tel">тел.: 27-170-132<br>
+                                <span class="adr">Рига, Лачплеша 37</span>
+                            </p>                  
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="back_top">
+            <a href="#main">
+                <span class="glyphicon glyphicon-circle-arrow-up"></span>
+            </a>
+        </div>
+    </body>
+</html>
