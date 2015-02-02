@@ -1,0 +1,349 @@
+@MainColor: #CE0212;
+@MainColor_light: lighten(@MainColor, 30%);
+@MainColor_dark: darken(@MainColor, 30%);
+@MainColor2: #333;
+@MainColor2_light: lighten(@MainColor2, 30%);
+@MainColor2_very_light: lighten(@MainColor2, 75%);
+
+body {
+
+    /* FOR VALIDATION START*/
+    input.valid {
+        background: url(../images/icon-ok.png) no-repeat right center #e3ffe5;
+        color: @MainColor2;
+        border-color: #96b796 !important;
+    }
+    .valid {
+        padding: 10px;
+        background: url(../images/icon-ok.png) no-repeat right center #e3ffe5;
+        color: @MainColor2;
+        border-color: #96b796 !important;
+
+    }
+
+    input.error {
+        background: url(../images/icon-fail.png) no-repeat right center #ffebef;
+        color: @MainColor_dark;
+    }    
+    /* FOR VALIDATION END */
+    padding-top: 50px;
+    h3, .h3 {
+        font-size: 23px;
+    }
+    p.zag_main {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 1.3em;
+        color: @MainColor2;
+    }
+
+    .adr {
+        font-family: HMN;
+        font-size:  20px;
+        text-align: right;
+        color:@MainColor2_light;
+    }
+    .tel {
+        font-family: HMN;
+        font-size:  24px;
+        text-align: right;
+        color: @MainColor2;
+        margin-top: 15px;
+    }
+
+    .gorizont_form {
+        background: #fff;
+        margin: 0 auto;
+        color: @MainColor2;
+        text-align: center;
+        img {
+            margin-left: 63px;
+            margin-bottom: 14px;
+        }
+        p.politic {
+            text-align: left;
+            font-size: 11px;
+            margin: 5px 25px 0px;
+            padding-top: 24px;
+            background-image: url("../images/surprise2.png");
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: 90px 90px;
+            width: 425px;
+            height: 100px;
+        }
+    } /* gorizont_form */
+
+    .back_top a{
+        position: fixed;
+        right: 25px;
+        bottom: 0px;
+        font-size: 70px;
+        color: @MainColor_light;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        &:hover {
+            color: @MainColor;
+        }
+    }
+
+    .alert{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    /*navbar*/
+    .navbar {
+        height: 50px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+        a {
+            color: #fff !important;
+            padding-left: 25px;
+            padding-right: 25px;
+            line-height: 25px;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: block;
+            height: 50px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #fff;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: @MainColor !important;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            display: block;
+            height: 50px;
+        }        
+        .current a {
+            color: #fff;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: @MainColor !important;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            display: block;
+            height: 50px;
+        }
+    }/* navbar */
+
+    /*--Шапка--*/
+    #header {
+        height: 85px;
+        background-color: #ffffff;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: @MainColor2_light solid 4px;
+        img {
+            margin-top: 15px;
+            width:250px;
+        }
+    }/* header */
+
+
+    /*--Экран 1--*/
+    #present {
+        width: 100%;
+        background-image: url(../images/zakazy.jpg);
+        background-position: center 160px;
+        background-repeat: no-repeat;
+        .main_title {
+            font-size: 46px;
+            color: @MainColor;
+            line-height: 1.2em;
+            padding: 0px 0 0 0;
+            text-align: center;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.7);
+        }
+        p.title {
+            color: @MainColor;
+            margin: 0px 0 0 0;
+            text-align: center;
+        }
+        .gorizont_form {
+            margin-top: 220px;
+            img {
+                margin-left: 63px;
+                margin-bottom: 14px;
+            }
+        } /* gorizont_form */
+    }/* present */
+
+
+    #works {
+        .thumbnail {
+            h3, p, span{
+                color: @MainColor2;
+            }
+
+            .input-group {
+                p {
+                    color: @MainColor2_light;
+                }
+                .form-control {
+                    border: 1px solid @MainColor2_light;
+                }
+                .input-group-addon {
+                    background-color: @MainColor2_very_light;
+                    border: 1px solid @MainColor2_light;
+                }
+            }
+
+            .work {
+                text-align: center;   
+                .see {
+                    position: absolute;
+                    bottom: 200px;
+                    left: 89px;
+                    visibility: hidden;
+                    -webkit-transition:visibility 0.4s ease-out;
+                    -moz-transition:visibility 0.4s ease-out;
+                    -o-transition:visibility 0.4s ease-out;
+                    transition:visibility 0.4s ease-out;
+                }
+                &:hover .see {
+                    visibility: visible;
+                    -webkit-transition:visibility 0.4s ease-in;
+                    -moz-transition:visibility 0.4s ease-in;
+                    -o-transition:visibility 0.4s ease-in;
+                    transition:visibility 0.4s ease-in;
+                } 
+            }
+        }/* /.thumbnail */
+        #want {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: @MainColor2;
+            p.plus {
+                font-size: 20px;
+            }
+            a {
+                display: block;
+                margin: 0 auto;
+                width: 370px;
+            }
+        }/* #want */
+    } /* #works */
+    #reviews {
+
+        .media-body {
+            color: @MainColor2;
+            .who {
+                margin: 17px 0px 0px 20px;
+                color: @MainColor2_light;
+            }
+            p {
+                margin: 15px 0px 0px 45px;
+                padding: 0px;
+            }
+        }
+    }
+
+    #price {
+        padding-top: 15px;
+    }
+
+    /*-- 17 причин --*/
+    #get {
+        .reson {
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto; 
+            border: 0px red solid;
+            text-align: center;
+            -webkit-transition-duration: 0.4s;
+            &:hover {
+                .hover {
+                    background: rgba(255, 255, 255, 0.3);
+                }
+            }
+            .hover {
+                position: absolute;
+                height: 222px;
+                width: 222px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.0);
+                top: 0;
+                left: 22%;
+                -webkit-transition: all 0.2s ease 0.02s;
+                transition: all 0.2s ease 0.02s;
+                transition-duration: 0.4s;
+
+            }
+            .tac {
+                position: absolute;
+                font-size: 20px;
+                color: #FFF;
+                text-shadow: 1px 1px 0px #02AF75;
+                width: 222px;
+                left: 22%;
+                cursor: default;
+            }
+            p.r1, .r7{
+                top: 85px;
+            }
+            p.r2, .r6{
+                top: 60px;
+            }
+
+            .r3, .r9, .r10, .r11, .r12, .r14{
+                top: 75px;
+            }
+
+            .r4, .r5{
+                top: 50px;
+            }
+
+            .r8, .r13{
+                top: 50px;
+            }
+
+            .r15{
+                top: 19px;
+                font-size: 19px;
+            }
+
+            .r16{
+                top: 44px;
+                font-size: 19px;
+            }
+
+            .r17{
+                top: 57px;
+                font-size: 19px;
+            }
+        } /* #reson */
+
+        #itog{
+            margin: 15px auto;
+            text-align: center;
+            p.middle{
+                font-size: 25px;
+                color: @MainColor2;
+                margin: 0;
+            }
+            p.title {
+                font-size: 22px;
+                color: @MainColor2;
+                margin: 10px 0px 30px;
+            }
+        }
+    } /* #get */
+
+    #price_last {
+        padding-bottom: 15px;
+        border-bottom: 4px solid @MainColor;
+    }
+    #footer {
+        padding-top: 10px;
+        border-top: 4px solid @MainColor2;
+    }
+    .response{
+        text-align: center;
+    }
+} /* body */

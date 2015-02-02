@@ -1,0 +1,327 @@
+body {
+  /* FOR VALIDATION START*/
+  /* FOR VALIDATION END */
+  padding-top: 50px;
+  /* gorizont_form */
+  /*navbar*/
+  /* navbar */
+  /*--Шапка--*/
+  /* header */
+  /*--Экран 1--*/
+  /* present */
+  /* #works */
+  /*-- 17 причин --*/
+  /* #get */
+}
+body input.valid {
+  background: url(http://web-landingpage.w-services.eu/images/icon-ok.png) no-repeat right center #e3ffe5;
+  color: #333333;
+  border-color: #96b796 !important;
+}
+body .valid {
+  padding: 10px;
+  background: url(http://web-landingpage.w-services.eu/images/icon-ok.png) no-repeat right center #e3ffe5;
+  color: #333333;
+  border-color: #96b796 !important;
+}
+body input.error {
+  background: url(http://web-landingpage.w-services.eu/images/icon-fail.png) no-repeat right center #ffebef;
+  color: #360105;
+}
+body h3,
+body .h3 {
+  font-size: 23px;
+}
+body p.zag_main {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 1.3em;
+  color: #333333;
+}
+body .adr {
+  font-family: HMN;
+  font-size: 20px;
+  text-align: right;
+  color: #808080;
+}
+body .tel {
+  font-family: HMN;
+  font-size: 24px;
+  text-align: right;
+  color: #333333;
+  margin-top: 15px;
+}
+body .gorizont_form {
+  background: #fff;
+  margin: 0 auto;
+  color: #333333;
+}
+body .gorizont_form img {
+  margin-left: 63px;
+  margin-bottom: 14px;
+}
+body .gorizont_form p.politic {
+  text-align: left;
+  font-size: 11px;
+  margin: 5px 25px 0px;
+  padding-top: 24px;
+  background-image: url("http://web-landingpage.w-services.eu/images/surprise2.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+  width: 425px;
+  height: 100px;
+}
+body .back_top a {
+  position: fixed;
+  right: 25px;
+  bottom: 0px;
+  font-size: 70px;
+  color: #fe6b77;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+body .back_top a:hover {
+  color: #ce0212;
+}
+body .alert {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+body .navbar {
+  height: 50px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+body .navbar a {
+  color: #fff !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 50px;
+  text-decoration: none;
+}
+body .navbar a:hover {
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ce0212 !important;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: block;
+  height: 50px;
+}
+body .navbar .current a {
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ce0212 !important;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: block;
+  height: 50px;
+}
+body #header {
+  height: 85px;
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: #5a5a5a solid 4px;
+}
+body #header img {
+  margin-top: 15px;
+  width: 250px;
+}
+body #present {
+  width: 100%;
+  background-image: url(http://web-landingpage.w-services.eu/images/zakazy.jpg);
+  background-position: center 160px;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* gorizont_form */
+}
+body #present .main_title {
+  font-size: 46px;
+  color: #ce0212;
+  line-height: 1.2em;
+  padding: 0px 0 0 0;
+}
+body #present p.title {
+  color: #ce0212;
+  margin: 0px 0 0 0;
+}
+body #present .gorizont_form {
+  margin-top: 220px;
+}
+body #present .gorizont_form img {
+  margin-left: 63px;
+  margin-bottom: 14px;
+}
+body #works {
+  /* /.thumbnail */
+  /* #want */
+}
+body #works .thumbnail h3,
+body #works .thumbnail p,
+body #works .thumbnail span {
+  color: #333333;
+}
+body #works .thumbnail .input-group p {
+  color: #808080;
+}
+body #works .thumbnail .input-group .form-control {
+  border: 1px solid #808080;
+}
+body #works .thumbnail .input-group .input-group-addon {
+  background-color: #f2f2f2;
+  border: 1px solid #808080;
+}
+body #works .thumbnail .work {
+  text-align: center;
+}
+body #works .thumbnail .work .see {
+  position: absolute;
+  bottom: 200px;
+  left: 89px;
+  visibility: hidden;
+  -webkit-transition: visibility 0.4s ease-out;
+  -moz-transition: visibility 0.4s ease-out;
+  -o-transition: visibility 0.4s ease-out;
+  transition: visibility 0.4s ease-out;
+}
+body #works .thumbnail .work:hover .see {
+  visibility: visible;
+  -webkit-transition: visibility 0.4s ease-in;
+  -moz-transition: visibility 0.4s ease-in;
+  -o-transition: visibility 0.4s ease-in;
+  transition: visibility 0.4s ease-in;
+}
+body #works #want {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #333333;
+}
+body #works #want p.plus {
+  font-size: 20px;
+}
+body #works #want a {
+  display: block;
+  margin: 0 auto;
+  width: 370px;
+}
+body #reviews .media-body {
+  color: #333333;
+}
+body #reviews .media-body .who {
+  margin: 17px 0px 0px 20px;
+  color: #808080;
+}
+body #reviews .media-body p {
+  margin: 15px 0px 0px 45px;
+  padding: 0px;
+}
+body #price {
+  padding-top: 15px;
+}
+body #get {
+  /* #reson */
+}
+body #get .reson {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px red solid;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+}
+body #get .reson:hover .hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+body #get .reson .hover {
+  position: absolute;
+  height: 222px;
+  width: 222px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  left: 22%;
+  -webkit-transition: all 0.2s ease 0.02s;
+  transition: all 0.2s ease 0.02s;
+  transition-duration: 0.4s;
+}
+body #get .reson .tac {
+  position: absolute;
+  font-size: 20px;
+  color: #FFF;
+  text-shadow: 1px 1px 0px #02AF75;
+  width: 222px;
+  left: 22%;
+  cursor: default;
+}
+body #get .reson p.r1,
+body #get .reson .r7 {
+  top: 85px;
+}
+body #get .reson p.r2,
+body #get .reson .r6 {
+  top: 60px;
+}
+body #get .reson .r3,
+body #get .reson .r9,
+body #get .reson .r10,
+body #get .reson .r11,
+body #get .reson .r12,
+body #get .reson .r14 {
+  top: 75px;
+}
+body #get .reson .r4,
+body #get .reson .r5 {
+  top: 50px;
+}
+body #get .reson .r8,
+body #get .reson .r13 {
+  top: 50px;
+}
+body #get .reson .r15 {
+  top: 19px;
+  font-size: 19px;
+}
+body #get .reson .r16 {
+  top: 44px;
+  font-size: 19px;
+}
+body #get .reson .r17 {
+  top: 57px;
+  font-size: 19px;
+}
+body #get #itog {
+  margin: 15px auto;
+  text-align: center;
+}
+body #get #itog p.middle {
+  font-size: 25px;
+  color: #333333;
+  margin: 0;
+}
+body #get #itog p.title {
+  font-size: 22px;
+  color: #333333;
+  margin: 10px 0px 30px;
+}
+body #price_last {
+  padding-bottom: 15px;
+  border-bottom: 4px solid #ce0212;
+}
+body #footer {
+  padding-top: 10px;
+  border-top: 4px solid #333333;
+}
+body .response {
+  text-align: center;
+}
+/* body */
